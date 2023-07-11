@@ -1,0 +1,19 @@
+nome = input('O que você quer escrever? ')
+print('O tipo primitivo do que você escreveu é:', type(nome))
+print(f'"{nome}" é Alfabético? ', nome.isalpha())
+print(f'"{nome}" é um Número? ', nome.isnumeric())
+print(f'"{nome}" é Alfanumérico? ', nome.isalnum())
+print(f'"{nome}" está capitalizada? ', nome.istitle())
+print(f'"{nome}" está em MAIÚSCULO? ', nome.isupper())
+print(f'"{nome}" está em minúsculo? ', nome.islower())
+print('"{}" é Assimétrico? '.format(nome), nome.isascii())
+numero1 = int(input('Escolha um número e em seguida o próximo: '))
+numero2 = int(input('E o outro número? '))
+resultado = numero1+numero2
+resultado2 = numero1-numero2
+resultado3 = numero1*numero2
+resultado4 = numero1/numero2
+print('O resultado da operação em soma é de "{}" '.format(resultado), 'e seu tipo primitivo é ', type(resultado))
+print('O resultado da operação em subtração é de "{}"'.format(resultado2), 'e seu tipo primitivo é ', type(resultado2))
+print('O resultado da operação em multiplicação é de "{}"'.format(resultado3), 'e seu tipo primitivo é ', type(resultado3))
+print('O resultado da operação em divisão é de "{}"'.format(resultado4), 'e seu tipo primitivo é ', type(resultado4))

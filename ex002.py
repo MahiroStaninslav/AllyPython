@@ -1,0 +1,6 @@
+nome = input("Como é o seu nome?")
+print("Seja bem-vindo, Senhor {}!".format(nome))
+personagem = input("Qual é o seu personagem favorito?")
+print(f'Este {personagem} é muito poderoso! :)')
+respiraçao = input("Qual é a respiração deste Hashira?")
+print(f"Este poder é muito ágil e poderoso, o poder do Pilar da Névoa, a {respiraçao}!")
