@@ -1,6 +1,6 @@
-nome = str(input('Seja bem-vindo ao código do Lorde Maho. Como o Senhor(a) se chama? '))
+nome = str(input('Seja bem-vindo ao código do Lorde Maho. Como o Senhor(a) se chama? ')).strip()
 
-numero = int(input('Muito bem Mestre {}, qual número você deseja? '.format(nome)))
+numero = int(input('\033[4;32mMuito bem Mestre {}, qual número você deseja?\033[m '.format(nome)).strip())
 print('O seu Número Escolhido é: {}, seu Antecessor é: {}, e o seu Sucessor é: {}!'.format(numero, numero-1, numero+1))
 
 algoritmo = int(input('E qual o próximo número desejas, {}? '.format(nome)))

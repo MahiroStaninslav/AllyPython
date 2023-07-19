@@ -9,11 +9,16 @@ print('O resto da divisão do ano é {}'.format(resto1))
 if resto1 == 0:
     print('O Ano Selecionado é um ano bissexto!')
 else:
-    print('O Ano Selecionado não é um ano bissexto.')'''
+    print('O Ano Selecionado não é um ano bissexto.')
 
 if ano % 4 == 0:
-    print('Este é um ano bissexto!')
+    print('O Ano {} bissexto!'.format(ano))
     if ano % 4 == 2:
-        print('Este é um ano bissexto!')
+        print('O Ano {} bissexto!'.format(ano))
 else:
-    print('Este não é um ano bissexto.')
+    print('O Ano {} não é bissexto.'.format(ano))'''
+
+if ano % 4 == 0 and ano % 100 != 0 or ano % 400 == 0:
+    print('O ano {} Bissexto.'.format(ano))
+else:
+    print('O ano {} não é Bissexto.'.format(ano))
